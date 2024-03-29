@@ -1,2 +1,4 @@
-<!-- insert_bottom 'ul id="sidebar-products"' -->
+<!-- insert_bottom '<ul id="sidebar-products" class="collapse nav nav-pills nav-stacked pb-2" data-hook="admin_orders">' -->
 <%= tab(:reviews, label: "review_management") %>
+<!-- insert_bottom '<ul id="sidebar-settings" class="collapse nav nav-pills nav-stacked pb-2" data-hook="admin_orders">' -->
+<%= tab(:review_settings, scope: :spree_reviews), edit_admin_review_settings_path %>
