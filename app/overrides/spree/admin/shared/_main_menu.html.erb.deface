@@ -1,2 +1,2 @@
-<!-- insert_bottom '[data-hook="admin_orders"]' -->
+<!-- insert_bottom 'ul id="sidebar-products"' -->
 <%= tab(:reviews, label: "review_management") %>
