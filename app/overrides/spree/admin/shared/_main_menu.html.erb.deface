@@ -1,1 +1,2 @@
-
+<!-- insert_bottom '[data-hook="admin_orders"]' -->
+<%= tab(:reviews, label: "review_management") %>
